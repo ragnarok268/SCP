@@ -118,3 +118,8 @@ SCP is not:
 - Record schema guidance: [docs/SCP_SCHEMA.md](docs/SCP_SCHEMA.md)
 - Required example card: [examples/scp/SCP-0007.yaml](examples/scp/SCP-0007.yaml)
 - Verification summary: [README_POSITIONING_UPDATE_REPORT.md](README_POSITIONING_UPDATE_REPORT.md)
+
+## Using SCP with AI coding agents
+
+- Repository agent instructions: [AGENTS.md](AGENTS.md)
+- AI usage guide: [docs/AI_USAGE.md](docs/AI_USAGE.md)
