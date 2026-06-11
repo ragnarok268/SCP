@@ -40,7 +40,7 @@ Default path: `.scp/origin.yaml`
 
 - `python -m pytest` passed: 62 tests.
 - `python -m pytest tests\test_scp.py tests\test_scp_cli.py` passed: 18 tests.
-- `$env:PYTHONPATH=(Resolve-Path src); python -m scp.cli validate examples\scp` passed: validated 5 files.
+- `python -m scp.cli validate examples\scp` passed in the prepared source environment: validated 5 files.
 - `git diff --check` passed.
 
 ## Confirmation

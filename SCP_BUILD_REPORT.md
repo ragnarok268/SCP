@@ -45,7 +45,7 @@
 
 - `python -m pytest tests\test_scp.py tests\test_scp_cli.py` passed: 14 tests.
 - `python -m pytest` passed: 58 tests.
-- `$env:PYTHONPATH=(Resolve-Path src); python -m scp.cli validate examples\scp` passed: validated 2 files.
+- `python -m scp.cli validate examples\scp` passed in the prepared source environment: validated 2 files.
 - `git diff --check` passed.
 
 ## Examples Validated
