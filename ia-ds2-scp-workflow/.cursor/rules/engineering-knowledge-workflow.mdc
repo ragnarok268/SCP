@@ -1,0 +1,27 @@
+---
+description: Apply the engineering knowledge workflow after meaningful repo changes.
+globs:
+  - "**/*"
+alwaysApply: true
+---
+
+Before work, read `README.md` and `AGENT_BOOTSTRAP.md`.
+If present, read `intent.yaml`, `artifacts/knowledge/guardrail_summary.md`, and recent files in `artifacts/knowledge/scp_drafts/`.
+
+Make small deterministic changes and keep artifacts human-readable and machine-readable.
+Do not present this methodology as a formal standard.
+
+After meaningful changes, run `python automation/guardrail_runner.py --changed <changed files>`.
+Then read `artifacts/knowledge/guardrail_summary.md`.
+
+If IA is blocked because `intent.yaml` is missing, review `artifacts/knowledge/intent_draft.yaml`.
+If IA fails and the issue is clear, repair and rerun.
+If DS2 shows new capability surface, summarize it for human review.
+If an SCP draft is generated, leave it as a draft unless explicitly approved.
+If relevant, run `python -m pytest`.
+
+References:
+- `WORKFLOW.md`
+- `AUTOMATION_ARCHITECTURE.md`
+- `EVENT_MODEL.md`
+- `AGENT_BOOTSTRAP.md`

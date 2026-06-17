@@ -1,0 +1,11 @@
+{
+  "run_id": "codex-workflow-task4-rerun2",
+  "repo_condition": "workflow",
+  "agent_name": "Codex",
+  "task_id": "task_4",
+  "run_start_timestamp": "2026-06-17T15:26:55Z",
+  "run_end_timestamp": "2026-06-17T15:26:56Z",
+  "elapsed_seconds": 0.69,
+  "command": "python C:/tmp/final_trial_executor.py --run-dir experiments/ab_adoption/trial_runs_final3/task4_workflow --condition workflow --task task_4",
+  "exit_code": 0
+}
